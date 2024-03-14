@@ -36,3 +36,6 @@ let output = multiply(4, 5);
 
 console.log(output); // 20.
 
+
+
+
