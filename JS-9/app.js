@@ -39,10 +39,12 @@ console.log("age" in person); // false
 console.log("firstName" in person); // true
 
 //! Object constructor
-function Car(brand, model, year) {
-  this.brand = brand;
-  this.model = model;
-  this.year = year;
+class Car {
+  constructor(brand, model, year) {
+    this.brand = brand;
+    this.model = model;
+    this.year = year;
+  }
 }
 
 const myCar = new Car("Mercedes", "AMG", 2019);
