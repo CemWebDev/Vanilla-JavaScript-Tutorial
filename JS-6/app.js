@@ -37,12 +37,12 @@ console.log(greeting.charAt(5)); // ,
 
 let text1 = "hello, world!";
 let upperCaseText = text1.toUpperCase();
-console.log(upperCaseText); // HELLO, WORLD!
+console.log(upperCaseText); // hello, world!
 console.log(text1.toUpperCase()); // HELLO, WORLD!
 
 let text2 = "HELLO, WORLD";
 let lowerCaseText = text2.toLowerCase();
-console.log(lowerCaseText); // hello, world!
+console.log(lowerCaseText); // HELLO, WORLD!
 console.log(text2.toLowerCase()); // hello, world!
 
 //! -replace()-
