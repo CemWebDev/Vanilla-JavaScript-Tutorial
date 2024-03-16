@@ -1,16 +1,15 @@
-/* Javascript DOM */
+/* JS DOM */
 
-// Select HTML item
-const demoTag = document.querySelector(".demo");
-const myButton = document.querySelector("#btn");
-const alertBtn = document.querySelector(".alert-btn");
-// Adding event listeners
 
-myButton.addEventListener("click", () => {
-  console.log("clicked");
-  demoTag.textContent = "Clicked";
+/* getElementById Method */
+const demoTag = document.getElementById("demo");
+const demoButton = document.getElementById("btn");
+
+// Demo tag element's default text content is: Hello
+// We can change the content by DOM manipulation
+//! Adding event listeners
+demoButton.addEventListener("click", () => {
+  demoTag.textContent = "JavaScript - DOM Manipulation";
 });
 
-alertBtn.addEventListener("click", () => {
-  alert("Clicked");
-});
+
