@@ -2,7 +2,13 @@
 const add = (firstNumber, secondNumber) => firstNumber + secondNumber;
 const subtract = (firstNumber, secondNumber) => firstNumber - secondNumber;
 const multiply = (firstNumber, secondNumber) => firstNumber * secondNumber;
-const divide = (firstNumber, secondNumber) => firstNumber / secondNumber;
+const divide = (firstNumber, secondNumber) => {
+  if (secondNumber === 0) {
+    console.log("Invalid value");
+  } else {
+    return firstNumber / secondNumber;
+  }
+};
 
 const calculate = (operation) => {
   let result;
