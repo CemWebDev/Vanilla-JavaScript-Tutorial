@@ -1,6 +1,8 @@
+/* Accessing HTML elements */
 const body = document.querySelector("body");
 const changeColorBtn = document.querySelector(".change-color");
 
+// Adding event listener
 changeColorBtn.addEventListener("click", () => {
   changeTheColor();
 });
