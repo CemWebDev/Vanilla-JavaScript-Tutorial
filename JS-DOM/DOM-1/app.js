@@ -15,10 +15,13 @@ demoButton.addEventListener("click", () => {
 
 /* getElementsByClassName() */
 
+// Get elements with class name "item"
 const listCollection = document.getElementsByClassName("item");
 
+/* Let's check the type of listCollection variable */
 console.log(typeof listCollection) // object - HTMLCollection
 
+// Add underline style to each element in the array
 const listCollectionArr = Array.from(listCollection);
 listCollectionArr.forEach((item) => {
   item.style.textDecoration = "underline";
