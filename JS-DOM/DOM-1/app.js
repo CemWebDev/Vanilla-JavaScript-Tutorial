@@ -1,7 +1,7 @@
 /* JS DOM */
 
 
-/* getElementById Method */
+/* getElementById() */
 const demoTag = document.getElementById("demo");
 const demoButton = document.getElementById("btn");
 
