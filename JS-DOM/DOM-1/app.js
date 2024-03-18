@@ -26,3 +26,11 @@ const listCollectionArr = Array.from(listCollection);
 listCollectionArr.forEach((item) => {
   item.style.textDecoration = "underline";
 })
+
+/*  getElementsByTagName() */
+
+const divTags = document.getElementsByTagName("div");
+console.log(divTags); // object - HTMLCollection
+
+const divTagsArr = Array.from(divTags);
+console.log(divTags.length); // 4
