@@ -13,3 +13,12 @@ demoButton.addEventListener("click", () => {
 });
 
 
+/* getElementsByClassName() */
+
+const listCollection = document.getElementsByClassName("item");
+
+console.log(typeof listCollection) // object - HTMLCollection
+
+const listCollectionArr = Array.from(listCollection);
+listCollectionArr.forEach((item, i) => {
+})
