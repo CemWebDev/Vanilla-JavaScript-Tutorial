@@ -48,10 +48,10 @@ li {
 }
 
 .navbar.sticky {
-    position: sticky;
-    top: 0;
-    background-color: red;
-    color: #fff;
+  position: sticky;
+  top: 0;
+  background-color: red;
+  color: #fff;
 }
 
 .navbar.sticky .logo a {

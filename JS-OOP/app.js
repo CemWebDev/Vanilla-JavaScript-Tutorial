@@ -9,7 +9,3 @@ class Animal {
 
 const cat = new Animal("Cat");
 cat.introduction(); // Cat
-
-
-
-

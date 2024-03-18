@@ -8,12 +8,11 @@ function helloWorld() {
 // Calling the helloWorld function
 helloWorld();
 
-
 //This function takes two numbers as parameters and adds them together.
 function Add(firstNumber, secondNumber) {
-   // The sum of the two numbers is calculated and stored in the variable 'summation'.
+  // The sum of the two numbers is calculated and stored in the variable 'summation'.
   let summation = firstNumber + secondNumber;
-   // The sum along with the original numbers is printed to the console for display.
+  // The sum along with the original numbers is printed to the console for display.
   console.log(firstNumber + " + " + secondNumber + " = " + summation);
 }
 
@@ -22,9 +21,7 @@ Add(1, 2); // Output is 2.
 // Calling the Add function with the arguments 3 and 4.
 Add(3, 4); // Output is 12.
 
-
 /* When JavaScript reaches a return statement, the function will stop executing. */
-
 
 // Declaring a function named 'multiply' that takes two parameters and returns their product.
 function multiply(firstNumber, secondNumber) {
@@ -35,7 +32,3 @@ function multiply(firstNumber, secondNumber) {
 let output = multiply(4, 5);
 
 console.log(output); // 20.
-
-
-
-
