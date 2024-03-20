@@ -2,7 +2,7 @@
 
 /* querySelector and querySelectorAll */
 
-// Select the element width id 'demo' using querySelector
+// Select the element with id 'demo' using querySelector
 const demoTag = document.querySelector("#demo");
 // Set the text color of the demo tag to red
 demoTag.style.color = "red";
