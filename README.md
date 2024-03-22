@@ -1,1 +1,1 @@
-![js-logo](https://github.com/CemWebDev/Vanilla-JavaScript-Tutorial/assets/137628926/11a0eeb1-68e3-48e9-a14f-096ad2e1a1c6)
+![javascript-logo](https://github.com/CemWebDev/Vanilla-JavaScript-Tutorial/assets/137628926/a7b3a2ea-fe45-44bf-ad25-4e4dfe7e7202)
