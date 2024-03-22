@@ -26,11 +26,11 @@ name = "John"; */
 
 //Numbers in Javascript
 
-const widht = 30;
+const width = 30;
 const height = 40;
 
 console.log(typeof width); // number
-consloe.log(typeof height); // number
+console.log(typeof height); // number
 
 // Strings in Javascript
 
