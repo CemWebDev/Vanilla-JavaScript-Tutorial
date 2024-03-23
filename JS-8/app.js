@@ -52,3 +52,5 @@ for (let i = 0; i < cities.length; i++) {
 cities.forEach((city) => {
   console.log(city);
 });
+
+
