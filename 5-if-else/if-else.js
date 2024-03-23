@@ -1,10 +1,13 @@
-let isPasswordTrue = true;
+let isTrue = true;
 
-// Checking the condition if is true
-if (isPasswordTrue == true) {
-  console.log("logged in");
+/* These two if statements below are same because true is a boolean type. */
+if (isTrue == true) {
+  //! This block, will be executed if condition is true.
+  console.log("Condition is true.");
+} else {
+  //! This block, will be executed if condition is false.
+  console.log("Condition is false.");
 }
-
 let myNumber = 12;
 
 // Checking if the number is greater than 10
@@ -41,4 +44,19 @@ if (isReservable) {
   }
 } else {
   console.log("Sorry, reservations are not available at the moment.");
+}
+
+
+//! Nested statements example
+
+let theNumber = 21;
+if (theNumber > 18) {
+  console.log("Number is more than 18");
+  if (theNumber > 20) {
+    console.log("Number is also more than 20");
+  } else {
+    console.log("The number is more than 18 and less than 20");
+  }
+} else {
+  console.log("The number is less than 18.");
 }
