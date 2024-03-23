@@ -1,6 +1,5 @@
 let isTrue = true;
 
-/* These two if statements below are same because true is a boolean type. */
 if (isTrue == true) {
   //! This block, will be executed if condition is true.
   console.log("Condition is true.");
